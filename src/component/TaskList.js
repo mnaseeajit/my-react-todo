@@ -1,7 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteTask,toggleTask, editTask } from "../redux/action";
-import img2 from "/home/manseeajit/my-react-todo/src/assets (1)/Clipboard.png";
+//import img2 from "/home/manseeajit/my-react-todo/src/assets (1)/Clipboard.png";
+import img2 from "../assets/Clipboard.png";
 
 const TaskList = () => {
     const tasks = useSelector((state) => state.tasks || []);
